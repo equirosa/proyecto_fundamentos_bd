@@ -1,3 +1,6 @@
+--Universidad Cenfotec
+--Curso: Fundamentos de Bases de Datos
+--Integrantes: Alejandro Chacon, Alejandro Solano, Eduardo Quiros.
 --Dropeo de BD
 DROP DATABASE PROYECTO;
 
