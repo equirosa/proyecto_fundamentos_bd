@@ -138,11 +138,11 @@ INSERT INTO ARTICULOS VALUES('01','04','4','Sillent Hills 2','20','A','49000.99'
 INSERT INTO ARTICULOS VALUES('01','05','5','Sonichu 64','200','A','4000.99');
 COMMIT;
 ----CLEINTES
-INSERT INTO CLIENTE VALUES('02','117380781','ACME','acme','acme','SJ','60680808',TO_DATE('1/09/08','DD/MM/YY'));
-INSERT INTO CLIENTE VALUES('01','117380782','Alfred','Venegas','Pirul','SJ','60680808',TO_DATE('4/04/17','DD/MM/YY'));
-INSERT INTO CLIENTE VALUES('01','117380783','Albert','Oconitrillo','Mendoza','SJ','60680808',TO_DATE('4/04/17','DD/MM/YY'));
-INSERT INTO CLIENTE VALUES('01','117380784','Allan','Bosnia','Miranda','SJ','60680808',TO_DATE('4/04/17','DD/MM/YY'));
-INSERT INTO CLIENTE VALUES('01','117380785','Alvarito','Oreamundo','Chinchilla','SJ','60680808',TO_DATE('4/04/17','DD/MM/YY'));
+INSERT INTO CLIENTE VALUES('02','117380781','ACME','acme','acme','Frente al Melico Salazar','60680808',TO_DATE('1/09/08','DD/MM/YY'),'SJ','SJ','A');
+INSERT INTO CLIENTE VALUES('01','117380782','Alfred','Venegas','Pirul','Frente al parque Santo Domingo','60680808',TO_DATE('4/04/17','DD/MM/YY'),'H','SD','I');
+INSERT INTO CLIENTE VALUES('01','117380783','Albert','Oconitrillo','Mendoza','Parque la Sabana','60680808',TO_DATE('4/04/17','DD/MM/YY'),'SJ','SJ','I');
+INSERT INTO CLIENTE VALUES('01','117380784','Allan','Bosnia','Miranda','Cerca del TEC','60680808',TO_DATE('4/04/17','DD/MM/YY'),'C','C','A');
+INSERT INTO CLIENTE VALUES('01','117380785','Alvarito','Oreamundo','Chinchilla','Lomas de Ayarco','60680808',TO_DATE('4/04/17','DD/MM/YY'),'SJ','Cu','A');
 COMMIT;
 ----DETA_FACT
 INSERT INTO DETA_FACT VALUES('01','01','01','01','01','38000.99','38000.99');
